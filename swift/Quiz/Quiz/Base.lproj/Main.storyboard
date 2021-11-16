@@ -315,10 +315,12 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zmG-hA-C5D">
-                                <rect key="frame" x="48" y="312" width="318" height="80"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zmG-hA-C5D">
+                                <rect key="frame" x="20" y="300" width="374" height="60"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="lRM-Ip-Sj2"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain">
                                     <attributedString key="attributedTitle">
@@ -334,10 +336,12 @@
                                     <action selector="shareButtonAction:" destination="Jv3-kY-Bbm" eventType="touchUpInside" id="h02-jU-uH5"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8TV-FS-Dm7">
-                                <rect key="frame" x="48" y="451" width="318" height="86"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8TV-FS-Dm7">
+                                <rect key="frame" x="20" y="410" width="374" height="60"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="Hl1-8i-zcY"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain">
                                     <attributedString key="attributedTitle">
@@ -357,6 +361,12 @@
                         <viewLayoutGuide key="safeArea" id="t6d-lQ-knu"/>
                         <color key="backgroundColor" red="0.792156862745098" green="0.91764705882352937" blue="0.90980392156862744" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="8TV-FS-Dm7" firstAttribute="top" secondItem="zmG-hA-C5D" secondAttribute="bottom" constant="50" id="46U-b1-X5P"/>
+                            <constraint firstItem="zmG-hA-C5D" firstAttribute="leading" secondItem="t6d-lQ-knu" secondAttribute="leading" constant="20" id="6n1-xu-Wrq"/>
+                            <constraint firstItem="t6d-lQ-knu" firstAttribute="trailing" secondItem="8TV-FS-Dm7" secondAttribute="trailing" constant="20" id="7Lf-TF-Byl"/>
+                            <constraint firstItem="8TV-FS-Dm7" firstAttribute="leading" secondItem="t6d-lQ-knu" secondAttribute="leading" constant="20" id="KVA-d3-5EX"/>
+                            <constraint firstItem="t6d-lQ-knu" firstAttribute="trailing" secondItem="zmG-hA-C5D" secondAttribute="trailing" constant="20" id="LIc-vD-bX4"/>
+                            <constraint firstItem="zmG-hA-C5D" firstAttribute="top" secondItem="vLl-Pp-30X" secondAttribute="bottom" constant="150" id="LN9-yx-05q"/>
                             <constraint firstItem="vLl-Pp-30X" firstAttribute="top" secondItem="t6d-lQ-knu" secondAttribute="top" constant="70" id="Lzw-6O-VvF"/>
                             <constraint firstItem="vLl-Pp-30X" firstAttribute="centerX" secondItem="x05-oG-JDb" secondAttribute="centerX" id="pJe-Yq-QEj"/>
                         </constraints>
