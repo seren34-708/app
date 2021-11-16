@@ -16,17 +16,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="〇〇クイズ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Skt-SJ-eg5">
-                                <rect key="frame" x="82" y="120" width="251" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="〇〇クイズ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Skt-SJ-eg5">
+                                <rect key="frame" x="81.5" y="144" width="251" height="60"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="50"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7dA-ao-FHt">
-                                <rect key="frame" x="51" y="447" width="313" height="85"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7dA-ao-FHt">
+                                <rect key="frame" x="20" y="408" width="374" height="80"/>
                                 <color key="backgroundColor" systemColor="systemRedColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="YTm-3t-EDm"/>
+                                </constraints>
                                 <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain">
@@ -45,6 +46,13 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.792156862745098" green="0.91764705882352937" blue="0.90980392156862744" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Skt-SJ-eg5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="80k-Zt-XjN"/>
+                            <constraint firstItem="Skt-SJ-eg5" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="9I2-qU-GIr"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7dA-ao-FHt" secondAttribute="trailing" constant="20" id="Kh8-wH-aAV"/>
+                            <constraint firstItem="7dA-ao-FHt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="ru6-2y-Slb"/>
+                            <constraint firstItem="7dA-ao-FHt" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="uZS-4U-tPE"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="startButton" destination="7dA-ao-FHt" id="TD7-o8-ZrB"/>
@@ -189,73 +197,84 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="難易度を選択してください。" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e6o-Zu-hlC">
-                                <rect key="frame" x="64" y="158" width="330" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="難易度を選択してください。" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="e6o-Zu-hlC">
+                                <rect key="frame" x="42.5" y="144" width="329.5" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ILP-n0-WW4">
-                                <rect key="frame" x="70" y="403" width="274" height="90"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemGreenColor"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="レベル1">
-                                            <attributes>
-                                                <font key="NSFont" size="30" name="HiraginoSans-W3"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                    <attributedString key="attributedSubtitle"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="levelButtonActionWithSender:" destination="ZBj-UE-9hm" eventType="touchUpInside" id="EGU-fE-Lh3"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L0M-WL-hxN">
-                                <rect key="frame" x="70" y="530" width="274" height="90"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemYellowColor"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="レベル2">
-                                            <attributes>
-                                                <font key="NSFont" size="30" name="HiraginoSans-W3"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                    <attributedString key="attributedSubtitle"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="levelButtonActionWithSender:" destination="ZBj-UE-9hm" eventType="touchUpInside" id="M0g-Zw-UNj"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T9i-oZ-fBb">
-                                <rect key="frame" x="70" y="653" width="274" height="90"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemRedColor"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="レベル3">
-                                            <attributes>
-                                                <font key="NSFont" size="30" name="HiraginoSans-W3"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                    <attributedString key="attributedSubtitle"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="levelButtonActionWithSender:" destination="ZBj-UE-9hm" eventType="touchUpInside" id="F1Y-Wr-xfv"/>
-                                </connections>
-                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="Gpt-Dk-YNE">
+                                <rect key="frame" x="40" y="328" width="334" height="240"/>
+                                <subviews>
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ILP-n0-WW4">
+                                        <rect key="frame" x="0.0" y="0.0" width="334" height="60"/>
+                                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="レベル1">
+                                                    <attributes>
+                                                        <font key="NSFont" size="30" name="HiraginoSans-W3"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                            <attributedString key="attributedSubtitle"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="levelButtonActionWithSender:" destination="ZBj-UE-9hm" eventType="touchUpInside" id="EGU-fE-Lh3"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L0M-WL-hxN">
+                                        <rect key="frame" x="0.0" y="90" width="334" height="60"/>
+                                        <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="レベル2">
+                                                    <attributes>
+                                                        <font key="NSFont" size="30" name="HiraginoSans-W3"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                            <attributedString key="attributedSubtitle"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="levelButtonActionWithSender:" destination="ZBj-UE-9hm" eventType="touchUpInside" id="M0g-Zw-UNj"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T9i-oZ-fBb">
+                                        <rect key="frame" x="0.0" y="180" width="334" height="60"/>
+                                        <color key="backgroundColor" systemColor="systemRedColor"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="レベル3">
+                                                    <attributes>
+                                                        <font key="NSFont" size="30" name="HiraginoSans-W3"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                            <attributedString key="attributedSubtitle"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="levelButtonActionWithSender:" destination="ZBj-UE-9hm" eventType="touchUpInside" id="F1Y-Wr-xfv"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="240" id="P7p-QW-jSK"/>
+                                </constraints>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Y9S-4y-c1Z"/>
                         <color key="backgroundColor" red="0.792156862745098" green="0.91764705882352937" blue="0.90980392156862744" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Gpt-Dk-YNE" firstAttribute="centerY" secondItem="8dJ-Tl-HZA" secondAttribute="centerY" id="9qt-d0-cri"/>
+                            <constraint firstItem="Y9S-4y-c1Z" firstAttribute="trailing" secondItem="Gpt-Dk-YNE" secondAttribute="trailing" constant="40" id="PJt-aG-UuI"/>
+                            <constraint firstItem="e6o-Zu-hlC" firstAttribute="top" secondItem="Y9S-4y-c1Z" secondAttribute="top" constant="100" id="YOT-p8-2IB"/>
+                            <constraint firstItem="Gpt-Dk-YNE" firstAttribute="leading" secondItem="Y9S-4y-c1Z" secondAttribute="leading" constant="40" id="Z0j-eF-taU"/>
+                            <constraint firstItem="e6o-Zu-hlC" firstAttribute="centerX" secondItem="8dJ-Tl-HZA" secondAttribute="centerX" id="qmv-0p-6Jc"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="level1Button" destination="L0M-WL-hxN" id="brE-SW-vBO"/>
