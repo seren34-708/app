@@ -70,9 +70,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ilt-0q-Y1M">
-                                <rect key="frame" x="20" y="140" width="374" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ilt-0q-Y1M">
+                                <rect key="frame" x="169" y="94" width="76.5" height="36"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -173,6 +172,10 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="fbV-M3-0TF"/>
                         <color key="backgroundColor" red="0.792156862745098" green="0.91764705882352937" blue="0.90980392156862744" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Ilt-0q-Y1M" firstAttribute="top" secondItem="fbV-M3-0TF" secondAttribute="top" constant="50" id="7xg-XV-LsF"/>
+                            <constraint firstItem="Ilt-0q-Y1M" firstAttribute="centerX" secondItem="ZfO-Gz-M9c" secondAttribute="centerX" id="SFg-I9-HaP"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="answerButton1" destination="Fo4-Ha-jQ6" id="yYv-16-gdS"/>
