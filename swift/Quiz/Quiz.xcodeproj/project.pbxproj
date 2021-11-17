@@ -8,6 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		2215B512ECFB85848249E214 /* Pods_Quiz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFF52CD03398E8221B45DB2C /* Pods_Quiz.framework */; };
+		3908B1DE27452E27006AA43B /* launchImageView.png in Resources */ = {isa = PBXBuildFile; fileRef = 3908B1DD27452E27006AA43B /* launchImageView.png */; };
+		3908B1ED27452F48006AA43B /* 80px.png in Resources */ = {isa = PBXBuildFile; fileRef = 3908B1E027452F47006AA43B /* 80px.png */; };
+		3908B1EE27452F48006AA43B /* 40px.png in Resources */ = {isa = PBXBuildFile; fileRef = 3908B1E127452F47006AA43B /* 40px.png */; };
+		3908B1EF27452F48006AA43B /* 60px.png in Resources */ = {isa = PBXBuildFile; fileRef = 3908B1E227452F47006AA43B /* 60px.png */; };
+		3908B1F027452F48006AA43B /* 58px.png in Resources */ = {isa = PBXBuildFile; fileRef = 3908B1E327452F47006AA43B /* 58px.png */; };
+		3908B1F127452F48006AA43B /* 20px.png in Resources */ = {isa = PBXBuildFile; fileRef = 3908B1E427452F47006AA43B /* 20px.png */; };
+		3908B1F227452F48006AA43B /* 87px.png in Resources */ = {isa = PBXBuildFile; fileRef = 3908B1E527452F47006AA43B /* 87px.png */; };
+		3908B1F327452F48006AA43B /* 152px.png in Resources */ = {isa = PBXBuildFile; fileRef = 3908B1E627452F47006AA43B /* 152px.png */; };
+		3908B1F427452F48006AA43B /* 76px.png in Resources */ = {isa = PBXBuildFile; fileRef = 3908B1E727452F47006AA43B /* 76px.png */; };
+		3908B1F527452F48006AA43B /* 120px.png in Resources */ = {isa = PBXBuildFile; fileRef = 3908B1E827452F47006AA43B /* 120px.png */; };
+		3908B1F627452F48006AA43B /* 167px.png in Resources */ = {isa = PBXBuildFile; fileRef = 3908B1E927452F47006AA43B /* 167px.png */; };
+		3908B1F727452F48006AA43B /* 29px.png in Resources */ = {isa = PBXBuildFile; fileRef = 3908B1EA27452F47006AA43B /* 29px.png */; };
+		3908B1F827452F48006AA43B /* 180px.png in Resources */ = {isa = PBXBuildFile; fileRef = 3908B1EB27452F47006AA43B /* 180px.png */; };
+		3908B1F927452F48006AA43B /* 1024px.png in Resources */ = {isa = PBXBuildFile; fileRef = 3908B1EC27452F47006AA43B /* 1024px.png */; };
 		396E8D012710458D007D723E /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396E8D002710458D007D723E /* ScoreViewController.swift */; };
 		396E8D0327105E92007D723E /* quiz1.csv in Resources */ = {isa = PBXBuildFile; fileRef = 396E8D0227105E92007D723E /* quiz1.csv */; };
 		3987EC7927159B4F000BE61C /* SelectLevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3987EC7827159B4F000BE61C /* SelectLevelViewController.swift */; };
@@ -25,6 +39,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3908B1DD27452E27006AA43B /* launchImageView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchImageView.png; sourceTree = "<group>"; };
+		3908B1E027452F47006AA43B /* 80px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 80px.png; sourceTree = "<group>"; };
+		3908B1E127452F47006AA43B /* 40px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 40px.png; sourceTree = "<group>"; };
+		3908B1E227452F47006AA43B /* 60px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 60px.png; sourceTree = "<group>"; };
+		3908B1E327452F47006AA43B /* 58px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 58px.png; sourceTree = "<group>"; };
+		3908B1E427452F47006AA43B /* 20px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 20px.png; sourceTree = "<group>"; };
+		3908B1E527452F47006AA43B /* 87px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 87px.png; sourceTree = "<group>"; };
+		3908B1E627452F47006AA43B /* 152px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 152px.png; sourceTree = "<group>"; };
+		3908B1E727452F47006AA43B /* 76px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 76px.png; sourceTree = "<group>"; };
+		3908B1E827452F47006AA43B /* 120px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 120px.png; sourceTree = "<group>"; };
+		3908B1E927452F47006AA43B /* 167px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 167px.png; sourceTree = "<group>"; };
+		3908B1EA27452F47006AA43B /* 29px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 29px.png; sourceTree = "<group>"; };
+		3908B1EB27452F47006AA43B /* 180px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 180px.png; sourceTree = "<group>"; };
+		3908B1EC27452F47006AA43B /* 1024px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1024px.png; sourceTree = "<group>"; };
 		396E8D002710458D007D723E /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
 		396E8D0227105E92007D723E /* quiz1.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz1.csv; sourceTree = "<group>"; };
 		3987EC7827159B4F000BE61C /* SelectLevelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectLevelViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +94,34 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		3908B1DC27452E27006AA43B /* launchImage */ = {
+			isa = PBXGroup;
+			children = (
+				3908B1DD27452E27006AA43B /* launchImageView.png */,
+			);
+			path = launchImage;
+			sourceTree = "<group>";
+		};
+		3908B1DF27452F47006AA43B /* appIcon */ = {
+			isa = PBXGroup;
+			children = (
+				3908B1E027452F47006AA43B /* 80px.png */,
+				3908B1E127452F47006AA43B /* 40px.png */,
+				3908B1E227452F47006AA43B /* 60px.png */,
+				3908B1E327452F47006AA43B /* 58px.png */,
+				3908B1E427452F47006AA43B /* 20px.png */,
+				3908B1E527452F47006AA43B /* 87px.png */,
+				3908B1E627452F47006AA43B /* 152px.png */,
+				3908B1E727452F47006AA43B /* 76px.png */,
+				3908B1E827452F47006AA43B /* 120px.png */,
+				3908B1E927452F47006AA43B /* 167px.png */,
+				3908B1EA27452F47006AA43B /* 29px.png */,
+				3908B1EB27452F47006AA43B /* 180px.png */,
+				3908B1EC27452F47006AA43B /* 1024px.png */,
+			);
+			path = appIcon;
+			sourceTree = "<group>";
+		};
 		39C02EBC2707DCED00FE4C1B = {
 			isa = PBXGroup;
 			children = (
@@ -100,6 +156,8 @@
 				39C02ED12707DCF000FE4C1B /* Assets.xcassets */,
 				39C02ED32707DCF000FE4C1B /* LaunchScreen.storyboard */,
 				39C02ED62707DCF000FE4C1B /* Info.plist */,
+				3908B1DF27452F47006AA43B /* appIcon */,
+				3908B1DC27452E27006AA43B /* launchImage */,
 				39DFB7E0271311B5008DD2E4 /* correct.png */,
 				39DFB7E2271311BD008DD2E4 /* incorrect.png */,
 			);
@@ -112,7 +170,6 @@
 				DCA69BAF92C0DBB36E46F64E /* Pods-Quiz.debug.xcconfig */,
 				9600FFEF8FF0A13A83403F77 /* Pods-Quiz.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -176,14 +233,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3908B1DE27452E27006AA43B /* launchImageView.png in Resources */,
+				3908B1F027452F48006AA43B /* 58px.png in Resources */,
+				3908B1F727452F48006AA43B /* 29px.png in Resources */,
+				3908B1EE27452F48006AA43B /* 40px.png in Resources */,
 				39E8F4652725800E00644605 /* quiz2.csv in Resources */,
 				39DFB7E1271311B5008DD2E4 /* correct.png in Resources */,
+				3908B1F827452F48006AA43B /* 180px.png in Resources */,
+				3908B1F627452F48006AA43B /* 167px.png in Resources */,
 				39DFB7E3271311BD008DD2E4 /* incorrect.png in Resources */,
 				39C02ED52707DCF000FE4C1B /* LaunchScreen.storyboard in Resources */,
+				3908B1F427452F48006AA43B /* 76px.png in Resources */,
 				39C02ED22707DCF000FE4C1B /* Assets.xcassets in Resources */,
+				3908B1F927452F48006AA43B /* 1024px.png in Resources */,
 				39C02ED02707DCED00FE4C1B /* Main.storyboard in Resources */,
+				3908B1ED27452F48006AA43B /* 80px.png in Resources */,
+				3908B1EF27452F48006AA43B /* 60px.png in Resources */,
 				396E8D0327105E92007D723E /* quiz1.csv in Resources */,
+				3908B1F527452F48006AA43B /* 120px.png in Resources */,
+				3908B1F327452F48006AA43B /* 152px.png in Resources */,
+				3908B1F227452F48006AA43B /* 87px.png in Resources */,
 				39E8F467272580C200644605 /* quiz3.csv in Resources */,
+				3908B1F127452F48006AA43B /* 20px.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +468,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -408,7 +480,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -426,6 +498,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -437,7 +510,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
